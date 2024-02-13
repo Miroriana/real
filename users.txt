@@ -1,0 +1,19 @@
+{
+  "email": "email1@example.com",
+  "password": "myPassword!"
+}
+
+{
+  "email": "veter1@example.com",
+  "password": "Umugore_Umugabo_Ubwiza123!Nyirabukwe"
+}
+
+{
+  "email": "example@mcc.com",
+  "password": "Umugore_Umugabo_Ubwiza!IbyizaIbihumbi"
+}
+
+{
+  "email": "john.farmer5432@example.com",
+  "password": "Kubaka_Ubwiza_Umugore2023"
+}
