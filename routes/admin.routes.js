@@ -195,7 +195,7 @@ const {
 } = require("../controller/Statistics/districtDailyStatistics");
 const {
   DistrictMonthlyQuantity,
-} = require("../controller/Statistics/DistrictMonthlyStatistics");
+} = require("../controller/Statistics/districtMonthlyStatistics");
 const {
   SectorDailyQuantity,
 } = require("../controller/Statistics/sectorDailyStatistics");
