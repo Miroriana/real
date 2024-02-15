@@ -131,7 +131,7 @@ const findmilkProductionById = async (req, res, next) => {
 //listing or the farmers recorded
 const listOfmilkProduction = async (req, res, next) => {
   var milkProduction = await milkProductionModel.find();
-  var farmerProduction = await farmersProductionModel.find();
+  var farmerProduction = await FarmerModel.find();
   try {
     res.json({
       message: "this is the milkProduction list",
