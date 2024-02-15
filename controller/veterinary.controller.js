@@ -46,7 +46,7 @@ const addMcc = catchAsyncError(async (req, res, next) => {
     // sending email codes
     var senderEmail = addedMcc.email;
     var subject = "Finished signing up your account";
-    signUpLink = `<p> <h3>Hello Veterinary! </h3>Welcome to our Team!! Here are your credentials<br> User email: ${addedMcc.email} <br> Password: ${addedMcc.password}  </p> <a href="http://localhost:4000/api/UH/v1/user/auth/signup">Sign in to continue</a>`;
+    signUpLink = `<p> <h3>Hello Mcc User! </h3>Welcome to our Team!! Here are your credentials<br> User email: ${addedMcc.email} <br> Password: ${defaultPassword}  </p> <a href="http://localhost:5173/login">Sign in to continue</a>`;
     sendEmail(senderEmail, subject, signUpLink);
 
     res.status(201).json({
